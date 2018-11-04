@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<questionnaire cle='180921014118' name='Langages programmation' displayName='QCM langages programmation'>
+<description></description>
+	<question type='combo' name='Etudes'>
+		<text>Niveau d'etudes</text>
+		<reponses>
+			<reponse default ='false'>BAC</reponse>
+			<reponse default ='true'>BTS</reponse>
+			<reponse default ='false'>Licence</reponse>
+			<reponse default ='false'>Master</reponse>
+			<reponse default ='false'>Doctorat</reponse>
+		</reponses>
+	</question>
+	<question type='liste' name='Connaissances'>
+		<text>Langages connus</text>
+		<reponses>
+			<reponse default ='false'>C/C++</reponse>
+			<reponse default ='true'>Cshap</reponse>
+			<reponse default ='false'>Java</reponse>
+			<reponse default ='false'>Python</reponse>
+			<reponse default ='false'>PHP</reponse>
+		</reponses>
+	</question>
+	<question type='radio' name='Niveau'>
+		<text>Votre niveau </text>
+		<reponses>
+			<reponse default ='false'>Novice</reponse>
+			<reponse default ='false'>Debutant</reponse>
+			<reponse default ='true'>Intermediaire</reponse>
+			<reponse default ='false'>Connaisseur</reponse>
+		</reponses>
+	</question>
+	<question type='text' name='passion'>
+		<text>passion </text>
+		<reponses>
+			<reponse default ='false'>escalade</reponse>
+			<reponse default ='false'>vache</reponse>
+			<reponse default ='true'>bouffe</reponse>
+			<reponse default ='false'>courir</reponse>
+		</reponses>
+	</question>
+</questionnaire>

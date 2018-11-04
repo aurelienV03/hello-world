@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<questionnaire cle='110725025149' name='Ville' displayName='Questionnaire sur la ville'>
+<description></description>
+	<question type='text' name='Ville'>
+		<text>Dans quelle ville habitez-vous ?</text>
+		<defaultreponse>Vichy</defaultreponse>
+		<maxCharacters>75</maxCharacters>
+	</question>
+</questionnaire>
